@@ -18,9 +18,11 @@ def func():
     else:
         logging.info(f"Random no generated is {randomNo}") 
 
-
-timer = threading.Timer(1.0, func)
-timer.start()       
+while(true):
+    timer = threading.Timer(1.0, func)
+    timer.start()  
+    
+     
 
 
 
